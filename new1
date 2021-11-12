@@ -1,8 +1,8 @@
  from os import utime
 import telegram
 
-bot = telegram.Bot(token='2005969126:AAFPxDYQ5UClw9rauesbANXCtJTmuvxHZY0')    ####자기 TELEGRAM API와 ID를 입력해준다 / 봇 토큰
-chat_id = 1576502417 ## 숫자만 입력 / 내 챗id
+bot = telegram.Bot(${{ secrets.telegram_token}}')    ####자기 TELEGRAM API와 ID를 입력해준다 / 봇 토큰
+chat_id = ${{ secrets.chat_id}} ## 숫자만 입력 / 내 챗id
 
 ##https://api.telegram.org/bot2005969126:AAFPxDYQ5UClw9rauesbANXCtJTmuvxHZY0/getme          -> 봇 챗id 확인
 ##https://api.telegram.org/bot2005969126:AAFPxDYQ5UClw9rauesbANXCtJTmuvxHZY0/getupdates     -> 내 챗id 확인
