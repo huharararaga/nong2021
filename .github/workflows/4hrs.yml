@@ -1,4 +1,4 @@
-name: Pylint
+name: 4hrs
 
 on: 
   schedule:
