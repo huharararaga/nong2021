@@ -16,8 +16,8 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        pip install pylint
-        pip install python-telegram-bot requests pandas time numpy
+        python -m pip install --upgrade pip
+        pip install pylint python-telegram-bot requests pandas time numpy telegram
     - name: run
       run: |
         python 노가다.py
