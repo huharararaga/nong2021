@@ -2,7 +2,7 @@ name: 수정본240분.yml
 
 on: 
   schedule:
-    - cron: 0 4,8,12,16,20 * * *
+    - cron: 50 3,7,11,15,19 * * *
 jobs:
   build:
     runs-on: ubuntu-latest
