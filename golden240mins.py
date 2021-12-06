@@ -9,7 +9,7 @@ a = 1
 
 if any:
     def goldencross(symbol):
-        url = "https://api.upbit.com/v1/candles/minutes/3"
+        url = "https://api.upbit.com/v1/candles/minutes/240"
         
         querystring = {"market":symbol,"count":"100"}
         
